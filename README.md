@@ -4,7 +4,6 @@
 [![GitHub stars](https://img.shields.io/github/stars/InfFLps/pomopo.svg)](https://github.com/InfFLps/pomopo/stargazers)  
 [![GitHub issues](https://img.shields.io/github/issues/InfFLps/pomopo.svg)](https://github.com/InfFLps/pomopo/issues)  
 ![Contributors](https://img.shields.io/github/contributors/InfFLps/pomopo)
-![Stars](https://img.shields.io/github/stars/InfFLps/pomopo)
 ![Commits](https://img.shields.io/github/commit-activity/m/InfFLps/pomopo)
 
 Hey there! Pomopo is a little desktop app I built as a side hobby, to help you stay focused while studying or working.
