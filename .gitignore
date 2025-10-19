@@ -1,0 +1,5 @@
+node_modules/
+out/
+
+# Just... don't touch this
+DON'T_README.md

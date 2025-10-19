@@ -1,0 +1,23 @@
+body {
+  font-family: "Inter", "Segoe UI", sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #111215;
+  color: #d0d0d0;
+  overflow: hidden;
+}
+.icon-btn {
+  position: fixed;
+  top: 40px; 
+  left: 15px;
+  background: none;
+  border: none;
+  color: #ccc;
+  font-size: 22px;
+  cursor: pointer;
+  z-index: 1000;
+  transition: opacity 0.2s ease;
+}
+.icon-btn:hover { opacity: 0.7; }

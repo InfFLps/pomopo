@@ -1,0 +1,70 @@
+#title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 25px;
+  color: #dcdcdc;
+}
+
+#session-label {
+  font-size: 18px;
+  color: #aaa;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+}
+
+#timer {
+  font-size: 50px;
+  margin: 40px 0;
+  color: #cfcfcf;
+  font-weight: 500;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+#controls button {
+  margin: 6px;
+  padding: 10px 22px;
+  font-size: 16px;
+  border: 1px solid #2a2b2f;
+  border-radius: 6px;
+  background-color: #1a1b1f;
+  color: #cccccc;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+#controls button:hover {
+  background-color: #222326;
+  border-color: #3a3b3f;
+  transform: translateY(-1px);
+}
+
+#progress {
+  width: 260px;
+  height: 6px;
+  background-color: #1e1f22;
+  margin: 20px auto;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+#progress-bar {
+  height: 100%;
+  width: 0%;
+  background-color: #2e2f33;
+  transition: width 1s linear;
+}
+
+#stats {
+  font-size: 14px;
+  color: #888;
+  margin-top: 10px;
+}
+
+#quote {
+  font-size: 14px;
+  color: #666;
+  margin-top: 30px;
+  font-style: italic;
+  opacity: 0.8;
+  transition: opacity 1s ease;
+}

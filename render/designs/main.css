@@ -1,0 +1,11 @@
+#main {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-height: 100vh;
+  padding-top: 38px;
+  transition: filter 0.3s ease;
+}

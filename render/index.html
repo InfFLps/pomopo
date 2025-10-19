@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pomopo</title>
+  <link rel="stylesheet" href="designs/index.css">
+</head>
+<body>
+  <div id="titlebar">
+    <div class="traffic-lights">
+      <div class="btn close"></div>
+      <div class="btn minimize"></div>
+      <div class="btn maximize"></div>
+    </div>
+    <div class="title">Pomopo v1.0.0</div>
+    <div class="window-controls">
+      <button class="win-btn" id="min-btn">–</button>
+      <button class="win-btn" id="max-btn">▢</button>
+      <button class="win-btn close" id="close-btn">×</button>
+    </div>
+  </div>
+
+  <button id="menuBtn" class="icon-btn">☰</button>
+
+  <aside id="sidebar">
+    <h2>Settings</h2>
+    <div class="section">
+      <h3>Timer</h3>
+      <label>Focus Minutes:</label>
+      <input type="number" id="focusInput" min="1" max="120" value="5">
+      <label>Break Minutes:</label>
+      <input type="number" id="breakInput" min="1" max="60" value="5">
+      <button id="applySettings">Apply</button>
+    </div>
+
+    <div class="section">
+      <h3>BGM</h3>
+      <p class="placeholder">Coming soon...</p>
+    </div>
+
+    <div class="section">
+      <h3>General</h3>
+      <p class="placeholder">Placeholder settings</p>
+    </div>
+  </aside>
+
+  <main id="main">
+    <h1 id="title">Pomopo</h1>
+
+    <div id="session-label">Focus</div>
+    <div id="timer">25:00</div>
+
+    <div id="controls">
+      <button id="startBtn">Start</button>
+      <button id="pauseBtn">Pause</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+
+    <div id="progress">
+      <div id="progress-bar"></div>
+    </div>
+
+    <div id="stats">
+      <span>Sessions completed: <strong id="sessions">0</strong></span>
+    </div>
+
+    <div id="quote">"Small steps every day."</div>
+  </main>
+
+  <script src="components/timer.js"></script>
+  <script src="components/titlebar.js"></script>
+</body>
+</html>

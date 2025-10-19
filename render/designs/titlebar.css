@@ -1,0 +1,82 @@
+#titlebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 32px;
+  background-color: #202225;
+  border-bottom: 1px solid #2a2a2a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  box-sizing: border-box;
+  color: #ccc;
+  font-size: 13px;
+  -webkit-app-region: drag;
+  z-index: 1002;
+}
+
+#titlebar .title {
+  flex: 1;
+  text-align: center;
+  font-size: 13px;
+  color: #ccc;
+  font-weight: 500;
+  pointer-events: none;
+}
+
+.traffic-lights {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  margin-left: 6px;
+  -webkit-app-region: no-drag;
+}
+
+.btn {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #444;
+  box-shadow: inset 0 0 0 1px #000;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.btn.close { background: #ff5f56; }
+.btn.minimize { background: #ffbd2e; }
+.btn.maximize { background: #27c93f; }
+
+.btn:hover {
+  box-shadow: 0 0 6px currentColor;
+  transform: scale(1.1);
+}
+
+.window-controls {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-end;
+  -webkit-app-region: no-drag;
+}
+
+.window-controls .win-btn {
+  width: 36px;
+  height: 28px;
+  border: none;
+  background: transparent;
+  color: #ccc;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.2s ease;
+}
+
+.window-controls .win-btn:hover {
+  background: #2d2f34;
+}
+
+.window-controls .win-btn.close:hover {
+  background: #e81123;
+  color: white;
+}
