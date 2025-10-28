@@ -19,16 +19,6 @@ Here’s what it looks like when you actually open it:
 
 ---
 
-## How to Get Started
-
-If you want to try it out or tweak it, check the **Initialize Guide** in the `doc` folder:
-
-[INITIALIZATION.md](doc/INITIALIZATION.md)
-
-It walks you through everything: prerequisites, installation, running it locally, and even building your own `.exe`.  
-
----
-
 ## What It Does
 
 - Lets you set focus and break timers to keep you on track  
@@ -44,17 +34,3 @@ It walks you through everything: prerequisites, installation, running it locally
 Pomopo is under the ISC License. Check out the [LICENSE](LICENSE) file if you need the legal stuff.  
 
 ---
-
-## Contributing
-
-Feel free to contribute if you want, but no pressure:
-
-1. Fork the repo  
-2. Clone it locally  
-3. Follow `doc/INITIALIZE.md` to set up your dev environment  
-4. Make your changes  
-5. Open a pull request  
-
----
-
-Thanks for checking out Pomopo! Hopefully it helps you stay productive without driving you crazy. 🚀
